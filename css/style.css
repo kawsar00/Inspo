@@ -1,0 +1,196 @@
+/* Banner section CSS */
+
+.banner{
+    background: url('../image/banner-bg.png') no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.navbar{
+	padding-top: 25px;
+	padding-right: 0 !important;
+}
+.navbar .nav-item{
+	margin: 0px 15px;
+}
+.navbar .nav-item .nav-link{
+	color: #fff;
+}
+.navbar .nav-item:hover .nav-link{
+	color: #fc6221;
+}
+.navbar .nav-item.active .nav-link{
+	color: #fc6221;
+}
+
+.banner .btn-login{
+	background: #fff;
+	border-radius: 50px;
+	color: #294af1 !important;
+	padding: 10px 20px !important;
+}
+.banner .btn-login:hover{
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff !important;
+}
+
+.hero-area{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+.hero-area h1{
+    color: #fff;
+    font-size: 56px;
+}
+.hero-area .btn-cta{
+    background: #fff;
+    border-radius: 50px;
+    color: #4856f3;
+    padding: 10px 20px;
+    margin-top: 25px;
+}
+.hero-area .btn-cta:hover{
+	background: #4856f3;
+	color: #fff;
+}
+
+
+/* about section CSS */
+.about{}
+.about .about-us{
+    /* padding-right: 20px; */
+}
+.about h6{
+    color: #9f9f9f;
+    font-size: 14px;
+}
+.about h2{
+    color: #171717;
+    font-size: 42px;
+    padding-left: 35%;
+    margin-bottom: 40px;
+}
+
+.about .media{}
+.about .media.first{
+	margin-bottom: 30px;
+}
+.about .media h5{
+    color: #171717;
+    margin-bottom: 20px !important;
+}
+.about .media p{
+    color: #505457;
+    line-height: 1.7;
+    padding-left: 40%;
+}
+.about .about-image{
+	padding-right: 0;
+	padding-left: 50px;
+}
+
+/* service section css */
+.service{
+    padding: 100px 0px;
+}
+.service h2{
+    color: #171717;
+    font-size: 42px;
+    padding: 0 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.service p{
+    color: #9f9f9f;
+    padding: 0 30%;
+    line-height: 1.7;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.box{
+    margin-bottom: 60px;
+    padding: 15px;
+    transition: 0.5s ease-in-out;
+}
+.box:hover{
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+}
+.box img{
+    margin-bottom: 20px;
+}
+.box h4{
+    color: #171717;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.box p{
+    margin-bottom: 0;
+    padding: 0;
+    padding-right: 12%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+/*Get Started Section Start*/
+.get-started{
+	background: url('../image/thinking-bg.png');
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 80px 0;
+}
+.get-started h2{
+	color: #fff;
+	margin-bottom: 20px;
+}
+.get-started p{
+	color: #fff;
+	margin-bottom: 40px;
+	padding: 0 24%;
+}
+.get-started .btn-cta{
+	background: #fff;
+    border-radius: 50px;
+    color: #4856f3;
+    padding: 10px 20px;
+}
+.get-started .btn-cta:hover{
+	background: #4856f3;
+	color: #fff;
+}
+.get-started .btn-ghost{
+	color: #fff;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.get-started .btn-ghost:hover{
+	color: #fff;
+    background: #4856f3;
+}
+
+/* clint section css */
+.client{
+	padding: 100px 0;
+}
+.content h6{
+	color: #9f9f9f;
+    font-size: 14px;
+}
+.content h2{
+	color: #171717;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+.content p{
+	color: #505457;
+	line-height: 1.7;
+}
+
+
